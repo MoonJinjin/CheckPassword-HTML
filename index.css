@@ -29,9 +29,9 @@ div.center {
 }
 div.center p {
 	font-family: 'TTTogether';
-	font-size: 40px;
+	font-size: 50px;
 	color: white;
-	text-shadow: 2px 2px 2px gray;
+	text-shadow: 2px 2px 2px black;
 }
 .nav {
 	width:100%;
@@ -44,15 +44,14 @@ div.center p {
 	text-align: center;
 	justify-content: center;
 	line-height: 100px;
-	list-style: none;
 	margin-bottom: 40px;
-	padding-bottom: 5px;
+	list-style: none;
 	background-color: rgba(0, 0, 0, .5);
 }
 .nav a {
 	color: white;
 	text-decoration: none;
-	font-size: 27px;
+	font-size: 30px;
 	position: relative;
 	padding-bottom: 10px;
 }
