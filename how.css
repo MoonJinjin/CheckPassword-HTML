@@ -12,52 +12,51 @@
 }
 body {
 	background-color: black;
+	overflow-x: hidden;
+	width: 700px;
+	margin: 0 auto;
 }
 .container {
 	text-align: center;
 	margin-top: 100px;	
 	width: 100%;
-	overflow: hidden;
 }
 div.center {
 	width: 90%;
-	height: 700px;
+	height: auto;
 	margin: 0 auto;
 	padding-top: 10px;
+	color: white;
 }
 #intro {
 	font-family: 'TTTogether';
 	font-size: 40px;
 	color: white;
 }
+.content {
+	width: 100%;
+	margin-top: 60px;
+	text-align: left;
+}
+.title {
+	font-family: 'S-CoreDream-3Light';
+	font-size: 30px;
+	margin-bottom: 10px;
+	outline: none;
+}
+.sub {
+	font-family: 'S-CoreDream-3Light';
+	font-size: 20px;
+	margin-bottom: 30px;
+	line-height: 30px;
+}
 .container img {
 	width: 80px;
 }
-#pwinput {
-	font-family: 'S-CoreDream-3Light';
-	width: 65%;
-	height: 60px;
-	margin-top: 50px;
-	border-radius: 25px;
-	border: 0;
-	outline: none;
-	font-size: 20px;
-	text-align: center;
+details {
+	margin-bottom: 20px;
 }
-hr {
-	color: white;
-	width: 90%;
-	margin-top: 40px;
-}
-#result_intro {
-	margin-top: 30px;
-	color: white;
-	font-size: 20px;
-	font-family: 'S-CoreDream-3Light';
-}
-#result {
-	margin-top: 30px;
-	color: white;
-	font-size: 30px;
-	font-family: 'S-CoreDream-3Light';
+summary {
+	padding-bottom: 13px;
+	border-bottom: 1px solid white;
 }
