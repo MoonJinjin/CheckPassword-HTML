@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'TTTogether';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+body {
+	background-color: black;
+	overflow-x: hidden;
+	width: 700px;
+	margin: 0 auto;
+}
+.container {
+	text-align: center;
+	margin-top: 100px;	
+	width: 100%;
+}
+div.center {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+#intro {
+	font-family: 'TTTogether';
+	font-size: 40px;
+	color: white;
+	text-shadow: 2px 2px 2px gray;
+}
+.container img {
+	width: 80px;
+}
+.question {
+	font-family: 'S-CoreDream-3Light';
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+	padding-bottom: 70px;
+}
+.question p {
+	margin: 40px 0 20px 0;
+	font-size: 22px;
+}
+.question label {
+	font-size: 18px;
+}
+.submitbtn input {
+	float: right;
+	margin-bottom: 50px;
+	width: 110px;
+	height: 50px;
+	border-radius: 15px;
+	font-family: 'S-CoreDream-3Light';
+	font-weight: bold;
+	font-size: 16px;
+	outline: none;
+}
+.submitbtn input:hover {
+	background-color: yellow;
+}
