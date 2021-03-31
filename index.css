@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TTTogether';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+	background-image: url("img/password_background.jpg");
+	background-size: cover;
+}
+.container {
+	font-family: 'SDSamliphopangche_Outline';
+	text-align: center;
+	margin-top: 100px;	
+	width: 100%;
+	overflow: hidden;
+}
+div.center {
+	width: 90%;
+	height: 700px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+div.center p {
+	font-family: 'TTTogether';
+	font-size: 40px;
+	color: white;
+	text-shadow: 2px 2px 2px gray;
+}
+.nav {
+	width:100%;
+	font-size: 1.5em;
+}
+.nav ul {
+	padding: 0;
+}
+.nav ul li {
+	text-align: center;
+	justify-content: center;
+	line-height: 100px;
+	border-bottom: 1px solid gray;
+	list-style: none;
+	margin-bottom: 40px;
+	padding-bottom: 5px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 27px;
+}
+.nav a:hover {
+	color: yellow;
+}
