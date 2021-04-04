@@ -5,6 +5,7 @@
 	<title>CHECK PASSWORD</title>
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="mypw_habit.css">
+	<script type="text/javascript" src="habit_score.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -17,8 +18,8 @@
 		<form action="result.html">
 			<div class="q1">
 				<p>1. 비밀번호를 바꾸는 주기</p>
-				<label><input type="radio" name="q1" value="month">한 달마다</label>
-				<label><input type="radio" name="q1" value="homepage">홈페이지에서 바꾸라고 할 때마다</label>
+				<label><input type="radio" name="q1" value="month">1개월 이상 3개월 이하</label>
+				<label><input type="radio" name="q1" value="homepage">사이트 추천 주기</label>
 				<label><input type="radio" name="q1" value="no">바꾸지 않는다.</label>
 			</div>
 			<div class="q2">
@@ -39,8 +40,9 @@
 			</div>
 			<div class="q5">
 				<p>5. 비밀번호에 중복된 문자 또는 숫자가 있는가</p>
+				<label><input type="radio" name="q5" value="one">1개 이상 2개 이하</label>
+				<label><input type="radio" name="q5" value="three">3개 이상</label>
 				<label><input type="radio" name="q5" value="no">없다</label>
-				<label><input type="radio" name="q5" value="yes">있다</label>
 			</div>
 			<div class="q6">
 				<p>6. 비밀번호가 몇 자인가</p>
@@ -50,11 +52,11 @@
 			</div>
 			<div class="q7">
 				<p>7. 비밀번호에 단어가 들어가는가</p>
-				<label><input type="radio" name="q7" value="no">안들어간다</label>
+				<label><input type="radio" name="q7" value="no">들어가지 않는다</label>
 				<label><input type="radio" name="q7" value="yes">들어간다</label>
 			</div>
 			<div class="submitbtn">
-				<input type="submit" value="제출">
+				<input onclick="Total()" type="submit" value="제출">
 			</div>
 		</form>
 	</div>

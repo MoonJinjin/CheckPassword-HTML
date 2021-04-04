@@ -5,13 +5,14 @@
 	<title>CHECK PASSWORD</title>
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="result.css">
+	<script type="text/javascript" src="habit_score.js"></script>
 </head>
 <body>
 	<div class="container">
 		<a href="index.html"><img src="img/logo.png"></a>
 		<div class="center">
 			<p id="intro">당신의 암호 습관 점수는!
-				<br><span style="color: yellow;">{점수}</span>점입니다
+				<br><span style="color: yellow;"><script>show()</script></span>점입니다
 			</p>
 			<button type="button" onClick="location.href='mypw_habit.html'">다시 검사하기</button>
 			<button type="button" onClick="location.href='how.html'">강력한 암호를 만드는 방법 보러가기</button>
