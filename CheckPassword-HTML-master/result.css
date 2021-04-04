@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'TTTogether';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+body {
+	background-color: black;
+	overflow-x: hidden;
+	width: 700px;
+	margin: 0 auto;
+}
+.container {
+	text-align: center;
+	margin-top: 100px;	
+	width: 100%;
+}
+.center {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+#intro {
+	font-family: 'TTTogether';
+	font-size: 40px;
+	color: white;
+	margin-bottom: 100px;
+	line-height: 50px;
+}
+.container img {
+	width: 80px;
+}
+.center button {
+	font-family: 'S-CoreDream-3Light';
+	font-size: 20px;
+	width: 400px;
+	height: 70px;
+	background-color: white;
+	margin-bottom: 30px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: black;
+	outline: none;
+}
+.center button:hover {
+	background-color: yellow;
+}
