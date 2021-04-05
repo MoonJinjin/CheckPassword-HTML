@@ -31,10 +31,10 @@ function check(str){
         }
         if(length !== set.size){
             setval = (length - set.size);
-            if(setval <= 1){
+            if(setval <= 3){
                 duplicate = 1
             }
-            else if(setval >= 2){
+            else if(setval >= 5){
                 duplicate = 2
             }
             else{
@@ -44,10 +44,10 @@ function check(str){
     }
 
     if(duplicate >= 2){
-        if(length <= 8){
+        if(length <= 6){
             return "매우 매우 쉬움"
         }
-        else if(length <= 12 || length > 8){
+        else if(length <= 12 || length > 6){
             if(small == true){
                 if(num == true){
                     if(big == true){
@@ -79,10 +79,10 @@ function check(str){
         }
     }
     else if(duplicate == 1){
-        if(length <= 8){
+        if(length <= 6){
             return "매우 쉬움"
         }
-        else if(length <= 12 || length > 8){
+        else if(length <= 12 || length > 6){
             if(small == true){
                 if(num == true){
                     if(big == true){
@@ -114,21 +114,21 @@ function check(str){
         }
     }
     else if(duplicate == 0){
-        if(length <= 8){
+        if(length <= 6){
             return "쉬움"
         }
-        else if(length <= 12 || length > 8){
+        else if(length <= 12 || length > 6){
             if(small == true){
                 if(num == true){
                     if(big == true){
                         if(special == true){
                             return "어려움"
                         }
-                        return "보통"
+                        return "어려움"
                     }
                     return "보통"
                 }
-                return "쉬움"
+                return "보통"
             }
             return "쉬움"
         }
@@ -139,13 +139,13 @@ function check(str){
                         if(special == true){
                             return "매우 어려움"
                         }
-                        return "어려움"
+                        return "매우 어려움"
                     }
-                    return "보통"
+                    return "어려움"
                 }
-                return "보통"
+                return "어려움"
             }
-            return "보통"
+            return "어려움"
         }
     }
 }
